@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d2b48c; /* Creme mocha background color */
+    color: #000; /* Default text color */
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    background-color: #000;
+}
+
+.contact-icons a {
+    color: #fff;
+    margin-left: 1em;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.contact-icons a:hover {
+    color: #ff4500; /* Red for hover effect */
+}
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    background-color: #000; /* Black background for welcome section */
+    color: #ffd700; /* Golden color for text */
+}
+
+.welcome-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #ffd700;
+    display: inline-block;
+}
+
+.welcome-text p {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+nav {
+    background-color: #111;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the nav stays on top */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ff4500; /* Red color for navigation links */
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border: 2px solid #ff4500;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background: #ff4500;
+    color: #fff;
+}
+
+nav ul li a:focus {
+    outline: none;
+    background: #ff4500;
+    color: #fff;
+}
+
+section {
+    padding: 2em 0;
+    background-color: #d2b48c; /* Creme mocha background color for sections */
+}
+
+section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #000; /* Black color for section headings */
+    margin-bottom: 1em;
+}
+
+section p, section ul {
+    color: #000; /* Black color for section content */
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 0.5em;
+}
